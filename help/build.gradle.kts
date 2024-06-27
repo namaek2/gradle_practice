@@ -32,11 +32,4 @@ publishing {
             from(components["java"])
         }
     }
-
-    repositories {
-        maven {
-            name = "local"
-            url = uri("file://${buildDir}")
-        }
-    }
 }
